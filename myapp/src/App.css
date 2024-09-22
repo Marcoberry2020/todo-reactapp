@@ -1,0 +1,73 @@
+body{
+  background-color: rgba(0, 0, 0, 0.151);
+}
+.t0-do-list{
+  font-family:arial,  sans-serif;
+  text-align:center;
+  margin-top:100px ;
+ }
+ h1{
+  font-size:4rem
+ }
+ button{
+  font-size:1.7rem;
+  font-weight:bold;
+  padding: 10px 20px;
+  color:white;
+  border: none;
+  border-radius: 5px ;
+  cursor:pointer;
+  transition:background-color 0.5s ease;
+
+ }
+ .add-button{
+  background-color: green;
+ }
+ .add-button:hover{
+  background-color: rgb(32, 44, 32);
+ }
+
+ .delete-button{
+  background-color: red;
+ }
+.delete-button:hover{
+  background-color: rgb(2, 0, 0);
+}
+ 
+ .move-button{
+  background-color: blue;
+ }
+ .move-button:hover{
+  background-color:rgb(8, 8, 70);
+ }
+ input[type="text"]{
+  font-size: 1.6rem;
+  padding:10px;
+  border:2px solid rgba(255, 255, 255, 0.493);
+  border-radius:5px;
+  color:rgb(26, 9, 9)
+ }
+ ol{
+  padding: 0;
+ }
+ li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  border: 3px solid aliceblue;
+  border-radius: 55px;
+  display: flex;
+  align-items: center;
+ }
+ .text{
+  flex: 1;
+
+ }
+ .delete-button, .move-button{
+  padding: 8px 12px;
+  margin-left:10px;
+ }
+
+  
